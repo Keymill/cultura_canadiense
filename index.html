@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Canadiense</title>
+    <meta name="description" content="Sitio web sobre la cultura canadiense, incluyendo tradiciones, símbolos y gastronomía.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Serif:wght@400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" as="image" href="imagenes/portada_canada.webp">
+    <meta name="theme-color" content="#FF3333">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo">
+        <h1 id="titulo-logo">Cultura Canadiense</h1>
+        <p id="mensaje-bienvenida"></p>
+    </div> 
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" id="nav-inicio">Inicio</a></li>
+            <li><a href="tradiciones.html" id="nav-tradiciones">Tradiciones</a></li>
+            <li><a href="simbolos.html" id="nav-simbolos">Símbolos</a></li>
+            <li><a href="#gastronomia" id="nav-gastronomia">Gastronomía</a></li>
+            <li><a href="#restaurantes" id="nav-restaurantes">Restaurantes</a></li>
+        </ul>
+    </nav>
+
+    <div class="idioma">    
+       <button id="btn-en" aria-label="Idioma inglés">EN</button>
+        <button id="btn-es" class="activo" aria-label="Idioma español">ES</button>
+    </div>
+</header>
+
+<main>
+<section class="titulo">
+
+ <img 
+        src="imagenes/portada_canada.webp"
+        alt="Paisaje de Canadá con lago y montañas"
+        class="hero-img"
+        loading="eager"
+        fetchpriority="high"
+    >
+
+    <div class="overlay">
+        <h1 id="hero-titulo">
+            Bienvenido a la <br>
+            <span>Cultura Canadiense</span>
+        </h1>
+
+        <p id="hero-texto">
+            Descubre Canadá a través de sus tradiciones, símbolos y gastronomía.
+        </p>
+
+        <a href="#mapa" class="boton" id="hero-boton">Explora Canadá</a>
+    </div>
+
+</section>
+
+<div class="linea-roja"></div>
+
+<div class="contenido">
+
+<section id="mapa">
+    <div class="mapa-contenedor">
+
+        <div class="mapa-texto">
+            <h1 id="mapa-titulo">Explora el mapa</h1>
+        </div>
+
+        <div class="mapa-imagen">
+            <img src="imagenes/hoja_arce.png" width="350" height="260" alt="Ilustración de una hoja de arce roja, símbolo nacional representativo de Canadá" loading="lazy">
+        </div>
+
+        <div class="mapa-canada">
+            <iframe 
+            src="https://www.google.com/maps?q=canada&output=embed"
+            title="Mapa de Canadá">
+        </iframe>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTENIDO GASTRONOMIA --> 
+<section id="gastronomia"> 
+    <h1 class="titulo-seccion" id="gastronomia-titulo">Gastronomía Canadiense</h1>
+    <p class="subtitulo" id="gastronomia-subtitulo">
+    Sabores reconfortantes que combinan ingredientes locales con influencias francesas e inglesas.
+    </p>
+
+    <div class="carrusel"> 
+        <button class="flecha izquierda boton_carrusel_retroceder" aria-label="Desplazar carrusel hacia la izquierda">&#10094;</button>
+        
+
+    <div class="carrusel-contenedor"> 
+
+        <article class="tarjeta-comida"> 
+            <img src="imagenes/poutine.webp"  width="350" height="260" alt="Plato típico canadiense poutine servido con papas fritas, queso en grano y salsa gravy caliente" loading="lazy"> 
+            <h3>Poutine</h3>
+            <p id="texto-poutine">La poutine es uno de los platos más famosos de Canadá. Consiste en papas fritas cubiertas con queso en grano y salsa gravy caliente. Es originaria de la provincia de Quebec y hoy se puede encontrar en todo el país.</p> 
+        </article> 
+
+        <article class="tarjeta-comida"> 
+            <img src="imagenes/tourtiere.webp"  width="350" height="260" alt="Pastel tradicional canadiense tourtière relleno de carne, típico de la región de Quebec" loading="lazy"> 
+            <h3>Tourtière</h3> 
+            <p id="texto-tour">La tourtière es un pastel salado relleno de carne (generalmente cerdo o res). Es una comida tradicional de Quebec y suele prepararse especialmente en celebraciones familiares y durante la temporada navideña.</p> 
+        </article> 
+
+        <article class="tarjeta-comida"> 
+            <img src="imagenes/jarabe.webp" width="350" height="260" alt="Jarabe de arce canadiense vertido sobre panqueques con mantequilla, producto tradicional del país" loading="lazy"> 
+            <h3>Jarabe de arce</h3> 
+            <p id="texto-jarabe">El jarabe de arce es uno de los productos más emblemáticos de Canadá. Se obtiene de la savia del árbol de arce y se usa comúnmente para acompañar panqueques, waffles y postres.</p> 
+        </article> 
+
+        <article class="tarjeta-comida"> 
+            <img src="imagenes/bannock.webp" width="350" height="260" alt="Pan tradicional indígena bannock cocinado a la parrilla, típico de las comunidades originarias de Canadá" loading="lazy"> 
+            <h3>Bannock</h3> 
+            <p id="texto-bannock">El bannock es un pan tradicional asociado a las comunidades indígenas de Canadá. Puede prepararse frito, al horno o a la parrilla. Es un alimento sencillo pero muy importante en la historia y cultura de los pueblos originarios.</p> 
+        </article> 
+
+        <article class="tarjeta-comida"> 
+            <img src="imagenes/bacon.webp"  width="350" height="260" alt="Peameal bacon canadiense, tocino curado cubierto con harina de maíz, servido en estilo tradicional" loading="lazy"> 
+            <h3>Peameal Bacon</h3> 
+            <p id="texto-peameal">El peameal bacon es un tipo de tocino curado y cubierto con harina de maíz. Es muy popular en la ciudad de Toronto y suele servirse en sándwiches. Es considerado uno de los alimentos más característicos de la gastronomía canadiense.</p>
+        </article> 
+        
+        <article class="tarjeta-comida"> 
+            <img src="imagenes/soup.webp" width="350" height="260" alt="Sopa canadiense de guisantes partidos con carne de cerdo y verduras, plato tradicional de la cocina franco-canadiense" loading="lazy"> 
+            <h3>Split Pea Soup</h3> 
+            <p id="texto-split">La split pea soup (sopa de guisantes partidos) es una sopa muy tradicional de la cocina franco-canadiense, especialmente en Quebec. Se prepara con guisantes secos, cerdo o jamón y verduras. Es una comida caliente y reconfortante, muy común durante el invierno.</p> 
+        </article> 
+    </div> 
+    <button class="flecha derecha boton_carrusel_avanzar" aria-label="Desplazar carrusel hacia la derecha">&#10095;</button>
+</div> 
+</section>
+
+
+
+<!-- CONTENIDO RESTAURANTES --> 
+<section id="restaurantes"> 
+    <h1 class="titulo-seccion" id="restaurantes-titulo">Restaurantes Destacados</h1> 
+    <p class="subtitulo" id="restaurantes-subtitulo">
+    Descubre los mejores lugares para saborear la auténtica cocina canadiense.
+    </p> 
+
+  <div class="filtros"> 
+    <span id="filtro-texto">Filtrar por tipo de cocina:</span> 
+    <button class="filtro activo" id="filtro-todos">Todos</button> 
+    <button class="filtro" id="filtro-moderna">Moderna</button> 
+    <button class="filtro" id="filtro-postres">Postres</button> 
+    <button class="filtro" id="filtro-fusion">Fusión</button> 
+</div>
+    
+    <div class="restaurantes-contenedor"> 
+        
+        <!-- TARJETA 1 --> 
+         
+        <article class="restaurante-tarjeta moderna">
+
+        <div class="tarjeta-header"> 
+            <h3>Waldo's on King</h3> 
+            <span class="etiqueta moderna" id="rest1-etiqueta">MODERNA</span> 
+            </div> 
+            <p class="descripcion" id="rest1-desc"> Internacional, Canadiense. </p> 
+            <hr> 
+            <div class="info"> 
+            <p>📍 130 King St, London, Ontario N6A 1C5 Canadá</p> 
+            <p>📞 +1 519-850-8666</p> 
+            </div> 
+        </article> 
+        
+        <!-- TARJETA 2 --> 
+        <article class="restaurante-tarjeta postres">
+
+        <div class="tarjeta-header"> 
+            <h3>C'ChoColat</h3> 
+            <span class="etiqueta moderna" id="rest2-etiqueta">POSTRES</span> 
+        </div> 
+            <p class="descripcion" id="rest2-desc"> Apto para vegetarianos, acepta tarjetas de crédito. </p> 
+            <hr>
+            <div class="info"> 
+            <p>📍 1255 Rue Bishop, Montreal, Quebec H3G 2E2 Canadá</p> 
+            <p>📞 +1 514-392-7777</p> 
+            </div> 
+        </article> 
+        
+        <!-- TARJETA 3 --> 
+        <article class="restaurante-tarjeta fusion">
+
+        <div class="tarjeta-header"> 
+            <h3>Lao Paradise</h3> 
+            <span class="etiqueta moderna" id="rest3-etiqueta">FUSION</span> 
+        </div> 
+            <p class="descripcion" id="rest3-desc"> Japonesa, Sushi, Asiática, Tailandesa. </p> 
+            <hr> 
+            <div class="info"> 
+            <p>📍 1568 Rue de la Faune, Quebec, Quebec G3E 1L2 Canadá</p> 
+            <p>📞 +1 418-915-8023</p> 
+            </div> 
+        </article> 
+        
+        <!-- TARJETA 4 --> 
+       <article class="restaurante-tarjeta moderna">
+
+        <div class="tarjeta-header"> 
+            <h3>Restaurant Tanière</h3> 
+            <span class="etiqueta moderna" id="rest4-etiqueta">MODERNA</span> 
+        </div> 
+            <p class="descripcion" id="rest4-desc"> 2 estrellas MICHELIN, Canadiense. </p> 
+            <hr> 
+            <div class="info"> 
+            <p>📍 7 Rue du Don-de-Dieu, Québec, QC, Quebec, Quebec G1K 3Z6 Canadá</p> 
+            <p>📞 +1 418-872-4386</p> 
+            </div> 
+        </article> 
+
+        <!-- TARJETA 5 --> 
+        <article class="restaurante-tarjeta postres">
+
+        <div class="tarjeta-header"> 
+            <h3>Café La Maison Smith</h3> 
+            <span class="etiqueta moderna" id="rest5-etiqueta">POSTRES</span> 
+        </div> <p class="descripcion" id="rest5-desc"> Francesa, Café, Canadiense. </p> 
+        <hr> 
+            <div class="info"> 
+            <p>📍 23 Rue Notre Dame, Quebec, Quebec G1K 4E9 Canadá</p> 
+            <p>📞 +1 581-742-6777</p> 
+            </div> 
+        </article> 
+        
+        <!-- TARJETA 6 --> 
+        <article class="restaurante-tarjeta fusion">
+
+        <div class="tarjeta-header"> 
+            <h3>Bagatelle Bistro</h3> 
+            <span class="etiqueta moderna" id="rest6-etiqueta">FUSIÓN</span> 
+        </div> 
+            <p class="descripcion" id="rest6-desc"> Francesa, Gastropub. </p> 
+            <hr> 
+            <div class="info"> 
+            <p>📍 4323 Rue Ontario E, Montreal, Quebec H1V 1K5 Canadá</p> 
+            <p>📞 +1 514-254-3838</p> 
+            </div> 
+        </article> 
+        
+        <!-- TARJETA 7 --> 
+        <article class="restaurante-tarjeta moderna">
+
+        <div class="tarjeta-header"> 
+            <h3>La Planque</h3> 
+            <span class="etiqueta moderna" id="rest7-etiqueta">MODERNA</span> 
+        </div> 
+            <p class="descripcion" id="rest7-desc"> Francesa, Canadiense. </p> 
+            <hr> 
+            <div class="info"> 
+            <p>📍 1027 3E Ave, Quebec, Quebec G1L 2X3 Canadá</p> 
+            <p>📞 +1 418-914-8780</p> 
+            </div> 
+        </article> 
+        
+        <!-- TARJETA 8 --> 
+        <article class="restaurante-tarjeta postres">
+            
+        <div class="tarjeta-header"> 
+            <h3>Nova Era Bakery</h3> 
+            <span class="etiqueta moderna" id="rest8-etiqueta">POSTRES</span> 
+        </div> 
+            <p class="descripcion" id="rest8-desc"> Apto para vegetarianos, Desayuno, Almuerzo, Brunch. </p> 
+            <hr> 
+            <div class="info"> 
+            <p>📍 460 Egerton St, London, Ontario N5W 3Z5 Canadá</p> 
+            <p>📞 +1 519-951-9333</p> 
+            </div> 
+        </article> 
+        
+        <!-- TARJETA 9 --> 
+        <article class="restaurante-tarjeta fusion"> 
+
+        <div class="tarjeta-header"> 
+            <h3>Le Serpent</h3> 
+            <span class="etiqueta moderna" id="rest9-etiqueta">FUSIÓN</span> 
+        </div> 
+            <p class="descripcion" id="rest9-desc"> Italiana, Francesa, Mariscos, Europea, Contemporánea. </p> 
+            <hr> 
+            <div class="info"> 
+            <p>📍 257, Rue Prince, Montreal, Quebec H3C 2N4 Canadá</p> 
+            <p>📞 +1 514-316-4666</p> 
+            </div> 
+        </article> 
+    </div> 
+</section> 
+</div> 
+</main>
+
+
+<!-- Final --> 
+<footer class="footer"> 
+    <div class="footer-contenido"> 
+        <h2 id="footer-titulo">Cultura Canadiense</h2> 
+        <p id="footer-texto"> Explora la vasta naturaleza, la rica herencia indígena y la moderna diversidad que define a Canadá. </p> 
+    </div> 
+</footer> 
+
+<script src="js/script.js"></script>
+
+
+</body> 
+</html>

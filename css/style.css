@@ -1,0 +1,774 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 80px;
+     flex-wrap: wrap; 
+    gap: 20px;    
+}
+
+.logo h1{
+    font-size:27px;
+    color:#FF3333;
+    font-family: "Playfair Display", serif;
+}
+
+nav ul{
+    display:flex;
+    gap:60px;
+    list-style:none;
+    font-size:17px;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+}
+
+nav ul li{
+    cursor:pointer;
+    transition:0.3s;
+}
+
+nav ul li:hover{
+    color:#FF3333;
+}
+
+.idioma{
+    display:flex;
+    gap:5px;
+}
+
+.idioma button{
+    border:1px solid grey;
+    background:white;
+    padding:5px 10px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.idioma button:hover{
+    color:gray;
+}
+
+
+.idioma button.activo {
+    background-color: #c0392b;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/* HERO */
+
+.titulo{
+    position:relative;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hero-img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;}
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    padding:20px;
+}
+
+.overlay h1{
+    font-size:clamp(32px, 6vw, 80px);
+    color:white;
+    font-family:"PT Serif", serif;
+    line-height:1.1;
+}
+
+.overlay h1 span{
+    color:#FF3333;
+}
+
+.overlay p{
+    font-size:clamp(14px, 2vw, 20px);
+    max-width:800px;
+    margin:40px 0;
+    padding-top:5px;
+    color:white;
+}
+
+.boton{
+    display:inline-block;
+    padding:12px clamp(20px, 4vw, 45px);
+    background-color:#990000;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:500;
+    font-size:clamp(14px, 1.5vw, 18px);
+}
+
+.linea-roja{
+    height:15px;
+    background-color:#FF3333;
+}
+
+/* SECCIONES GENERALES */
+
+.contenido section{
+    padding:120px 80px;
+}
+
+.contenido h1{
+    font-size:40px;
+    color:#282828;
+}
+
+/* MAPA */
+
+#mapa{
+padding:120px 20px;
+background: #f4f4f4;
+}
+
+.mapa-contenedor{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.mapa-texto{
+    flex:1;
+}
+
+.mapa-imagen{
+    flex:0.8;
+    display:flex;
+    justify-content:center;
+}
+
+.mapa-imagen img{
+    width:250px;
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+.mapa-canada{
+    flex:1.3;
+}
+
+.mapa-canada iframe{
+    width:100%;
+    aspect-ratio:16/9;
+    border:0;
+}
+
+/* TITULOS */
+
+.titulo-seccion{
+    text-align:center;
+    font-size:40px;
+    font-family:"Playfair Display", serif;
+    position:relative;
+}
+
+.titulo-seccion::after{
+    content:"";
+    width:80px;
+    height:3px;
+    background:#FF3333;
+    display:block;
+    margin:20px auto 0;
+}
+
+/* SIMBOLOS */
+
+#simbolos{
+    padding:120px 20px;
+    background:#ffffff;
+}
+
+#simbolos .titulo-seccion{
+    margin-bottom:60px;
+}
+
+.simbolos-contenedor{
+    display:flex;
+    gap:90px;
+    max-width:1200px;
+    margin:0 auto;
+    align-items:center;
+}
+
+.simbolos-imagen{
+    flex:0 0 40%;
+}
+
+.simbolos-imagen img{
+    width:100%;
+    border-radius:10%;
+    max-width:700px;
+    height:auto;
+}
+
+.simbolos-texto{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.tarjeta{
+    background:#e9e9e9;
+    padding:30px;
+    border-radius:20px;
+    position:relative;
+}
+
+.tarjeta::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:15px;
+    background:#e63946;
+    border-radius:20px 0 0 20px;
+}
+
+/* TRADICIONES */
+
+#tradiciones{
+    padding:120px 20px;
+    background:#f4f4f4;
+}
+
+.subtitulo{
+    text-align:center;
+    max-width:800px;
+    font-size:20px;
+    margin:20px auto 60px;
+    color:#666;
+}
+
+.tradiciones-contenedor{
+    display:flex;
+    gap:50px;
+    justify-content:center;
+    flex-wrap:wrap; 
+}
+
+/* TARJETA */
+.tradicion-tarjeta{
+    width:380px; 
+    text-align:center;
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+
+.tradicion-tarjeta:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.15);
+}
+
+
+.tradicion-tarjeta img{
+    width:100%;
+    height:auto; 
+    border-radius:20px;
+    margin-bottom:15px;
+}
+
+/* TITULO */
+.tradicion-tarjeta h3{
+    font-size:24px;
+    font-family:"Playfair Display", serif;
+    margin-bottom:10px;
+}
+
+
+details summary{
+    cursor:pointer;
+    color:#666;
+    font-size:14px;
+}
+
+details{
+    position:relative;
+}
+
+details p{
+    position:absolute;
+    left:0;
+    top:100%;
+    background:white;
+    padding:12px;
+    border-radius:10px;
+    width:100%;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    z-index:10;
+}
+
+/* VIDEO */
+
+.video_tradiciones{
+    margin-top:60px;
+    text-align:center;
+}
+
+.video_tradiciones h3{
+    font-size:24px;
+    margin-bottom:25px;
+    font-weight:500;
+}
+
+.video_tradiciones video{
+    width:100%;
+    max-width:700px;
+    border-radius:20px;
+}
+
+/* GASTRONOMIA */
+
+#gastronomia{
+    padding:50px 20px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.tarjeta-comida{
+    min-width:340px;
+    max-width:340px;
+    background:white;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    text-align:left;
+}
+
+.tarjeta-comida img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:18px 18px 0 0;
+}
+
+.tarjeta-comida h3{
+    font-family:"Playfair Display", serif;
+    font-size:22px;
+    margin:18px;
+}
+
+.tarjeta-comida p{
+    margin:0 18px 22px;
+    color:#131111;
+    font-size:15px;
+    line-height:1.5;
+}
+
+.carrusel{
+    position:relative;
+    max-width:1100px;
+    margin:60px auto;
+    padding:0 60px;
+}
+
+.carrusel-contenedor{
+    display:flex;
+    gap:30px;
+    overflow:hidden;
+    scroll-behavior:smooth;
+}
+
+.flecha{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    background:#FF3333;
+    border:none;
+    color:white;
+    font-size:26px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.izquierda{ left:0; }
+.derecha{ right:0; }
+
+/* RESTAURANTES */
+
+#restaurantes{
+    padding:120px 20px;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+.filtros{
+    margin:40px 0 70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.filtro{
+    border:none;
+    padding:8px 18px;
+    border-radius:20px;
+    background:#e0e0e0;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.filtro.activo{
+    background:#ff4a4a;
+    color:white;
+}
+
+.restaurantes-contenedor{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:60px;
+}
+
+.restaurante-tarjeta{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    text-align:left;
+    border-top:10px solid #FF9999;
+}
+
+.tarjeta-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.tarjeta-header h3{
+    font-family:"Playfair Display", serif;
+    font-size:20px;
+}
+
+.descripcion{
+    margin:10px 0 20px;
+    color:#131111;
+    font-size:14px;
+}
+
+hr{
+    border:none;
+    height:1px;
+    background:#e5e5e5;
+    margin:15px 0;
+}
+
+.info p{
+    font-size:14px;
+    margin:6px 0;
+    color:#131111;
+}
+
+.etiqueta{
+    padding:4px 12px;
+    border-radius:20px;
+    font-size:11px;
+    font-weight:bold;
+    color:#990000;
+    background:#FFD2D2;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color:#3f3f3f;
+    padding:100px 20px;
+    text-align:center;
+}
+
+.footer-contenido{
+    max-width:800px;
+    margin:auto;
+}
+
+.footer h2{
+    color:#FF7373;
+    font-family:"Playfair Display", serif;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.footer p{
+    color:#dcdcdc;
+    font-size:16px;
+    line-height:1.6;
+}
+
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVE */
+
+
+/* TABLET */
+@media (max-width: 1024px) {
+
+    .contenido section{
+        padding: 80px 40px; 
+    }
+
+    .mapa-contenedor{
+        gap: 40px;
+    }
+
+    .simbolos-contenedor{
+        gap: 50px;
+    }
+
+    .restaurantes-contenedor{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+
+/* MÓVIL */
+@media (max-width: 768px) {
+
+    .contenido section{
+        padding: 60px 15px;
+    }
+
+    /* HEADER */
+    header{
+        position: relative; 
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1001;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav ul li{
+        background: #f0f0f0;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+
+    
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 70px; 
+        right: 20px;
+        width: 200px;
+        flex-direction: column;
+        background: white;
+        border-radius: 12px;
+        padding: 15px;
+        gap: 10px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        z-index: 1000;
+    }
+
+    nav ul.activo {
+        display: flex;
+    }
+
+    /* HERO */
+    .titulo{
+        height: 70vh;
+    }
+
+    .overlay h1{
+        font-size: 28px;
+    }
+
+    .overlay p{
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    /* MAPA */
+    .mapa-contenedor{
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .mapa-texto{
+        text-align: center;
+    }
+
+    .mapa-imagen img{
+        width: 150px;
+    }
+
+    .mapa-canada iframe{
+        width: 100%;
+        height: 250px;
+    }
+
+    /* SÍMBOLOS */
+    .simbolos-contenedor{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .simbolos-texto{
+        width: 100%;
+    }
+
+    /* TRADICIONES */
+    .tradicion-tarjeta{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* GASTRONOMÍA */
+    .carrusel{
+        padding: 0 20px;
+    }
+
+    .tarjeta-comida{
+        min-width: 260px;
+        max-width: 260px;
+    }
+
+    /* RESTAURANTES */
+    .restaurantes-contenedor{
+        grid-template-columns: 1fr; 
+        gap: 30px;
+    }
+
+    /* FOOTER */
+    .footer{
+        padding: 60px 20px;
+    }
+
+    .footer h2{
+        font-size: 28px;
+    }
+
+    .footer p{
+        font-size: 14px;
+    }
+
+}
+
+
+/* MÓVIL PEQUEÑO */
+@media (max-width: 480px) {
+
+    .contenido section{
+        padding: 50px 10px;
+    }
+
+    .titulo-seccion{
+        font-size: 24px;
+    }
+
+    .mapa-imagen img{
+        width: 120px;
+    }
+
+    .tarjeta-comida{
+        min-width: 220px;
+        max-width: 220px;
+    }
+
+ 
+    header{
+        padding: 15px;
+    }
+
+  
+    .menu-toggle{
+        top: 15px;
+        right: 15px;
+        font-size: 24px;
+    }
+
+    nav ul{
+        top: 60px;
+        right: 10px;
+        width: 180px;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    nav ul li{
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+}
+
+
+/* Detalles js */
+#mensaje-bienvenida {
+    font-size: 18px;
+    color: #FF3333;
+    margin-top: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}

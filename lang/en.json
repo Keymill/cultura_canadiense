@@ -1,0 +1,84 @@
+{
+  "titulo-logo": "Canadian Culture",
+  "nav-inicio": "Home",
+  "nav-tradiciones": "Traditions",
+  "nav-simbolos": "Symbols",
+  "nav-gastronomia": "Gastronomy",
+  "nav-restaurantes": "Restaurants",
+
+  "hero-titulo": "Welcome to <br><span>Canadian Culture</span>",
+  
+  "hero-texto": "Discover Canada through its traditions, symbols and gastronomy.",
+  "hero-boton": "Explore Canada",
+
+  "mapa-titulo": "Explore the map",
+
+  "gastronomia-titulo": "Canadian Cuisine",
+  "gastronomia-subtitulo": "Comforting flavors that combine local ingredients with French and English influences.",
+  "texto-poutine": "Poutine is one of the most famous dishes in Canada. It consists of French fries topped with cheese curds and hot gravy sauce. It originates from the province of Quebec and can now be found across the entire country.",
+  "texto-tour": "Tourtière is a savory meat pie (usually made with pork or beef). It is a traditional dish from Quebec and is especially prepared during family celebrations and the Christmas season.",
+  "texto-jarabe": "Maple syrup is one of Canada’s most iconic products. It is obtained from the sap of the maple tree and is commonly used to accompany pancakes, waffles, and desserts.",
+  "texto-bannock": "Bannock is a traditional bread associated with Indigenous communities in Canada. It can be fried, baked, or grilled. It is a simple food but very important in the history and culture of Indigenous peoples.",
+  "texto-peameal": "Peameal bacon is a type of cured bacon coated in cornmeal. It is very popular in the city of Toronto and is often served in sandwiches. It is considered one of the most characteristic foods of Canadian cuisine.",
+  "texto-split": "Split pea soup is a very traditional soup in French-Canadian cuisine, especially in Quebec. It is made with dried peas, pork or ham, and vegetables. It is a warm and comforting dish, very common during winter.",
+
+  "restaurantes-titulo": "Featured Restaurants",
+  "restaurantes-subtitulo": "Discover the best places to taste authentic Canadian cuisine.",
+
+  "rest1-etiqueta": "MODERN",
+  "rest1-desc": "International, Canadian.",
+  "rest2-etiqueta": "DESSERTS",
+  "rest2-desc": "Suitable for vegetarians, accepts credit cards.",
+  "rest3-etiqueta": "FUSION",
+  "rest3-desc": "Japanese, Sushi, Asian, Thai cuisine.",
+  "rest4-etiqueta": "MODERN",
+  "rest4-desc": "2 Michelin stars, Canadian.",
+  "rest5-etiqueta": "DESSERTS",
+  "rest5-desc": "French, Café, Canadian.",
+  "rest6-etiqueta": "FUSION",
+  "rest6-desc": "French, Gastropub.",
+  "rest7-etiqueta": "MODERN",
+  "rest7-desc": "French, Canadian.",
+  "rest8-etiqueta": "DESSERTS",
+  "rest8-desc": "Suitable for vegetarians, Breakfast, Lunch, Brunch.",
+  "rest9-etiqueta": "FUSION",
+  "rest9-desc": "Italian, French, Seafood, European, Contemporary.",
+
+  "filtro-texto": "Filter by cuisine type:",
+  "filtro-todos": "All",
+  "filtro-moderna": "Modern",
+  "filtro-postres": "Desserts",
+  "filtro-fusion": "Fusion",
+
+  "tradiciones-titulos": "Canadian Traditions",
+  "tradiciones-texto": "Canadian traditions reflect their cultural diversity and respect for community and nature.",
+
+  "tarjeta-marmota": "Groundhog Day",
+  "mas": "See more...",
+  "marmota-texto": "Groundhog Day is a popular tradition that is also celebrated in Canada every February 2nd. On that day, a groundhog is observed as it comes out of its burrow: if it sees its shadow and goes back inside, it is believed that winter will last longer; if it does not see it, it is said that spring will arrive soon. Although it is a symbolic tradition, many people gather to watch this event in a festive way.",
+
+  "tarjeta-hockey": "Ice Hockey",
+  "mas2": "See more...",
+  "hockey-texto": "Ice hockey is one of the most important and beloved sports in Canada. It is mainly played during winter and is part of the national culture. From children to professionals, many people practice or follow this sport, and games often bring families and communities together.",
+
+  "winter-texto": "Winterlude is a winter festival held every year in Ottawa, the country's capital. During this event, many outdoor activities take place such as ice skating on the Rideau Canal, ice sculpture exhibitions, concerts, and games for the whole family. The festival celebrates the Canadian winter and attracts both tourists and residents who enjoy the traditions and activities of the season.",
+  "mas3": "See more...",
+
+  "video-tradiciones": "Discover more about Canada",
+
+  "simbolos-titulo": "Main Symbols of Canada",
+
+  "herencia-titulo": "Indigenous Heritage",
+  "herencia-texto": "Canada’s Indigenous heritage is fundamental to its identity. Before the arrival of Europeans, the territory was inhabited by First Nations, Inuit, and Métis peoples, who developed their own cultures, languages, and traditions. Their deep respect for nature and their artistic and spiritual expressions remain an important part of Canada’s cultural heritage today.",
+
+  "arce-titulo": "Maple Leaf",
+  "arce-texto": "The maple leaf is the most representative symbol of Canada. It represents nature, national identity, and pride in the country. In addition, the maple tree has great economic and cultural importance, as it is the source of the famous maple syrup, a traditional product recognized worldwide.",
+
+  "castor-titulo": "Beaver",
+  "castor-texto": "The beaver is one of the most traditional symbols of Canada. Since the fur trade era, this animal has played a key role in the economic development of the territory. Over time, it became a representation of the effort, perseverance, and hardworking spirit that characterize the country, and today it is recognized as one of its national emblems.",
+
+  "video-simbolos": "Discover more about curiosities",
+
+  "footer-titulo": "Canadian Culture",
+  "footer-texto": "Explore the vast nature, rich Indigenous heritage, and modern diversity that defines Canada."
+}

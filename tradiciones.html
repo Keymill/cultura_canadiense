@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradiciones de Canadá</title>
+    <meta name="description" content="Sitio web sobre la cultura canadiense, incluyendo tradiciones, símbolos y gastronomía.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Serif:wght@400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="theme-color" content="#FF3333">
+</head>
+
+<body>
+
+
+<!-- ENCABEZADO --> 
+
+<header class="header">
+    <div class="logo">
+        <h1 id="titulo-logo">Cultura Canadiense</h1>
+        <p id="mensaje-bienvenida"></p>
+    </div> 
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav>
+          <ul>
+            <li><a href="index.html" id="nav-inicio">Inicio</a></li>
+            <li><a href="tradiciones.html" id="nav-tradiciones">Tradiciones</a></li>
+            <li><a href="simbolos.html" id="nav-simbolos">Símbolos</a></li>
+            <li><a href="index.html#gastronomia" id="nav-gastronomia">Gastronomía</a></li>
+            <li><a href="index.html#restaurantes" id="nav-restaurantes">Restaurantes</a></li>
+        </ul>
+    </nav>
+    
+    <div class="idioma">    
+       <button id="btn-en" aria-label="Idioma inglés">EN</button>
+        <button id="btn-es" class="activo" aria-label="Idioma español">ES</button>
+    </div>
+
+</header>
+
+<main>
+<!-- CONTENIDO TRADICIONES --> 
+ <section id="tradiciones"> 
+
+    <h1 class="titulo-seccion" id="tradiciones-titulos">Tradiciones de Canadá</h1> 
+    <p class="subtitulo" id="tradiciones-texto">Las tradiciones canadienses reflejan su diversidad cultural y el respeto por la comunidad y la naturaleza.</p> 
+
+    <div class="tradiciones-contenedor"> 
+
+        <!-- tarjeta 1 --> 
+        <article class="tradicion-tarjeta"> 
+            <img src="imagenes/dia_marmotas.webp"  width="350" height="260" alt="Marmota saliendo de su madriguera durante la celebración del Día de la Marmota, tradición donde se observa su sombra para predecir el clima" loading="lazy"> 
+            <h3 id="tarjeta-marmota">Día de la marmota</h3> 
+            <details> 
+            <summary id="mas">Ver más...</summary> 
+            <p id="marmota-texto"> El Groundhog Day es una tradición popular que también se celebra en Canadá cada 2 de febrero. Ese día se observa a una marmota al salir de su madriguera: si ve su sombra y vuelve a entrar, se cree que el invierno durará más; si no la ve, se dice que la primavera llegará pronto. Aunque es una tradición simbólica, muchas personas se reúnen para ver este evento de forma festiva. </p> 
+            </details> </article> 
+            
+            <!-- tarjeta 2 --> 
+            <article class="tradicion-tarjeta"> 
+                <img src="imagenes/dia_hockey.webp" width="350" height="260" alt="Jugadora de hockey sobre hielo en una pista, usando uniforme rojo y casco mientras controla el disco durante un partido" loading="lazy"> 
+                <h3 id="tarjeta-hockey">Hockey sobre hielo</h3> 
+                <details> 
+                <summary id="mas2">Ver más...</summary> 
+                <p id="hockey-texto"> El hockey sobre hielo es uno de los deportes más importantes y queridos en Canadá. Se juega principalmente durante el invierno y forma parte de la cultura nacional. Desde niños hasta profesionales, muchas personas practican o siguen este deporte, y los partidos suelen reunir a familias y comunidades. </p> 
+                </details> 
+            </article> 
+            
+            <!-- tarjeta 3 --> 
+            <article class="tradicion-tarjeta"> 
+                <img src="imagenes/dia_hielo.webp" width="350" height="260" alt="Personas disfrutando actividades de invierno en el festival Winterlude, incluyendo juegos en la nieve y eventos al aire libre" loading="lazy"> 
+                <h3>Winterlude</h3> 
+                <details> 
+                <summary id="mas3">Ver más...</summary> 
+                <p id="winter-texto"> Winterlude es un festival de invierno que se celebra cada año en Ottawa, la capital del país. Durante este evento se realizan muchas actividades al aire libre como patinaje sobre hielo en el canal Rideau, exhibiciones de esculturas de hielo, conciertos y juegos para toda la familia. El festival celebra el invierno canadiense y atrae tanto a turistas como a residentes que disfrutan de las tradiciones y actividades propias de la temporada. </p> 
+                </details> 
+            </article> 
+        </div> 
+        
+        <div class="video_tradiciones"> 
+            <h3 id="video-tradiciones">Descubre más sobre Canadá</h3> 
+            <video controls aria-label="Video sobre tradiciones de Canadá"> <source src="videos/canada.mp4" type="video/mp4"> </video> 
+        </div> 
+    </section>
+</main>
+
+ <footer class="footer"> 
+    <div class="footer-contenido"> 
+        <h2 id="footer-titulo">Cultura Canadiense</h2> 
+        <p id="footer-texto"> Explora la vasta naturaleza, la rica herencia indígena y la moderna diversidad que define a Canadá. </p> 
+    </div> 
+</footer> 
+
+<script src="js/script.js"></script>
+
+
+</body> 
+</html>

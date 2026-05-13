@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Símbolos de Canadá</title>
+    <meta name="description" content="Sitio web sobre la cultura canadiense, incluyendo tradiciones, símbolos y gastronomía.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Serif:wght@400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="theme-color" content="#FF3333">
+</head>
+
+
+
+<body> 
+
+
+<!-- ENCABEZADO --> 
+<header class="header">
+    <div class="logo">
+        <h1 id="titulo-logo">Cultura Canadiense</h1>
+        <p id="mensaje-bienvenida"></p>
+    </div> 
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" id="nav-inicio">Inicio</a></li>
+            <li><a href="tradiciones.html" id="nav-tradiciones">Tradiciones</a></li>
+            <li><a href="simbolos.html" id="nav-simbolos">Símbolos</a></li>
+            <li><a href="index.html#gastronomia" id="nav-gastronomia">Gastronomía</a></li>
+            <li><a href="index.html#restaurantes" id="nav-restaurantes">Restaurantes</a></li>
+        </ul>
+    </nav>
+
+    <div class="idioma">    
+       <button id="btn-en" aria-label="Idioma inglés">EN</button>
+        <button id="btn-es" class="activo" aria-label="Idioma español">ES</button>
+    </div>
+</header>
+
+<main>
+<!-- CONTENIDO SIMBOLOS --> 
+
+<section id="simbolos"> 
+    <h1 class="titulo-seccion" id="simbolos-titulo">Símbolos Principales de Canadá</h1> 
+    
+    <div class="simbolos-contenedor"> 
+
+        <div class="simbolos-imagen"> 
+        <img src="imagenes/simbolos.webp"  width="350" height="260" alt="Composición de símbolos representativos de Canadá, incluyendo la bandera con la hoja de arce roja, elementos culturales y referencias a la identidad nacional canadiense" loading="lazy"> 
+
+        </div> 
+        
+        <div class="simbolos-texto"> 
+
+            <article class="tarjeta"> 
+                <h3 id="herencia-titulo">Herencia Indígena</h3> 
+                <p id="herencia-texto">La herencia indígena de Canadá es fundamental para su identidad. Antes de la llegada de los europeos, el territorio estaba habitado por las Primeras Naciones, los inuit y los métis, quienes desarrollaron culturas, lenguas y tradiciones propias. Su profundo respeto por la naturaleza y sus expresiones artísticas y espirituales siguen siendo parte importante del patrimonio cultural canadiense actual.</p> 
+            </article> 
+            
+            <article class="tarjeta"> 
+                <h3 id="arce-titulo">La hoja de Arce</h3> 
+                <p id="arce-texto">La hoja de arce es el símbolo más representativo de Canadá. Representa la naturaleza, la identidad nacional y el orgullo del país. Además, el arce tiene gran importancia económica y cultural, ya que de él se obtiene el famoso jarabe de arce, un producto tradicional y reconocido en todo el mundo.</p> 
+            </article> 
+
+            <article class="tarjeta"> 
+                <h3 id="castor-titulo">Castor</h3> 
+                <p id="castor-texto">El castor es uno de los símbolos más tradicionales de Canadá. Desde la época del comercio de pieles, este animal tuvo un papel clave en el desarrollo económico del territorio. Con el tiempo, se convirtió en una representación del esfuerzo, la constancia y el espíritu trabajador que caracterizan al país, por lo que hoy es reconocido como uno de sus emblemas nacionales.</p> 
+            </article> 
+        </div> 
+    </div> 
+
+      <div class="video_tradiciones"> 
+            <h3 id="video-simbolos">Descubre más sobre curiosidades</h3> 
+            <video controls aria-label="Video sobre curiosidades de Canadá"> <source src="videos/curiosidades.mp4" type="video/mp4"> </video> 
+        </div> 
+
+</section>
+</main>
+
+
+ <footer class="footer"> 
+    <div class="footer-contenido"> 
+        <h2 id="footer-titulo">Cultura Canadiense</h2> 
+        <p id="footer-texto"> Explora la vasta naturaleza, la rica herencia indígena y la moderna diversidad que define a Canadá. </p>  
+    </div> 
+</footer> 
+
+<script src="js/script.js"></script>
+
+
+</body> 
+</html>

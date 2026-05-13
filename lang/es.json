@@ -1,0 +1,85 @@
+{
+  "titulo-logo": "Cultura Canadiense",
+  "nav-inicio": "Inicio",
+  "nav-tradiciones": "Tradiciones",
+  "nav-simbolos": "Símbolos",
+  "nav-gastronomia": "Gastronomía",
+  "nav-restaurantes": "Restaurantes",
+
+  "hero-titulo": "Bienvenido a la <br><span>Cultura Canadiense</span>",
+  "hero-texto": "Descubre Canadá a través de sus tradiciones, símbolos y gastronomía.",
+  "hero-boton": "Explora Canadá",
+
+  "mapa-titulo": "Explora el mapa",
+
+  "gastronomia-titulo": "Gastronomía Canadiense",
+  "gastronomia-subtitulo": "Sabores reconfortantes que combinan ingredientes locales con influencias francesas e inglesas.",
+
+  "texto-poutine": "La poutine es uno de los platos más famosos de Canadá. Consiste en papas fritas cubiertas con queso en grano y salsa gravy caliente. Es originaria de la provincia de Quebec y hoy se puede encontrar en todo el país.",
+  "texto-tour": "La tourtière es un pastel salado relleno de carne (generalmente cerdo o res). Es una comida tradicional de Quebec y suele prepararse especialmente en celebraciones familiares y durante la temporada navideña.",
+  "texto-jarabe": "El jarabe de arce es uno de los productos más emblemáticos de Canadá. Se obtiene de la savia del árbol de arce y se usa comúnmente para acompañar panqueques, waffles y postres.",
+  "texto-bannock": "El bannock es un pan tradicional asociado a las comunidades indígenas de Canadá. Puede prepararse frito, al horno o a la parrilla. Es un alimento sencillo pero muy importante en la historia y cultura de los pueblos originarios.",
+  "texto-peameal": "El peameal bacon es un tipo de tocino curado y cubierto con harina de maíz. Es muy popular en la ciudad de Toronto y suele servirse en sándwiches. Es considerado uno de los alimentos más característicos de la gastronomía canadiense.",
+  "texto-split": "La split pea soup (sopa de guisantes partidos) es una sopa muy tradicional de la cocina franco-canadiense, especialmente en Quebec. Se prepara con guisantes secos, cerdo o jamón y verduras. Es una comida caliente y reconfortante, muy común durante el invierno.",
+
+  "restaurantes-titulo": "Restaurantes Destacados",
+  "restaurantes-subtitulo": "Descubre los mejores lugares para saborear la auténtica cocina canadiense.",
+
+
+  "rest1-etiqueta":"MODERNA",
+  "rest1-desc":"Internacional, Canadiense.",
+  "rest2-etiqueta":"POSTRES",
+  "rest2-desc":"Apto para vegetarianos, acepta tarjetas de crédito.",
+  "rest3-etiqueta":"FUSIÓN",
+  "rest3-desc":"Japonesa, Sushi, Asiática, Tailandesa.",
+  "rest4-etiqueta":"MODERNA",
+  "rest4-desc":"2 estrellas MICHELIN, Canadiense.",
+  "rest5-etiqueta":"POSTRES",
+  "rest5-desc":"Francesa, Café, Canadiense.",
+  "rest6-etiqueta":"FUSION",
+  "rest6-desc":"Francesa, Gastropub.", 
+  "rest7-etiqueta":"MODERNA",
+  "rest7-desc":"Francesa, Canadiense.",
+  "rest8-etiqueta":"POSTRES",
+  "rest8-desc":"Apto para vegetarianos, Desayuno, Almuerzo, Brunch.",
+  "rest9-etiqueta":"FUSIÓN",
+  "rest9-desc":"Italiana, Francesa, Mariscos, Europea, Contemporánea.",
+
+  "filtro-texto": "Filtrar por tipo de cocina:",
+  "filtro-todos": "Todos",
+  "filtro-moderna": "Moderna",
+  "filtro-postres": "Postres",
+  "filtro-fusion": "Fusión",
+
+  "tradiciones-titulos":"Tradiciones de Canadá",
+  "tradiciones-texto":"Las tradiciones canadienses reflejan su diversidad cultural y el respeto por la comunidad y la naturaleza.",
+    
+  "tarjeta-marmota":"Día de la marmota",
+  "mas":"Ver más...",
+  "marmota-texto": "El Groundhog Day es una tradición popular que también se celebra en Canadá cada 2 de febrero. Ese día se observa a una marmota al salir de su madriguera: si ve su sombra y vuelve a entrar, se cree que el invierno durará más; si no la ve, se dice que la primavera llegará pronto. Aunque es una tradición simbólica, muchas personas se reúnen para ver este evento de forma festiva.",
+
+  "tarjeta-hockey":"Hockey sobre hielo",
+  "mas2":"Ver más...",
+  "hockey-texto":"El hockey sobre hielo es uno de los deportes más importantes y queridos en Canadá. Se juega principalmente durante el invierno y forma parte de la cultura nacional. Desde niños hasta profesionales, muchas personas practican o siguen este deporte, y los partidos suelen reunir a familias y comunidades.",
+   
+  "winter-texto": "Winterlude es un festival de invierno que se celebra cada año en Ottawa, la capital del país. Durante este evento se realizan muchas actividades al aire libre como patinaje sobre hielo en el canal Rideau, exhibiciones de esculturas de hielo, conciertos y juegos para toda la familia. El festival celebra el invierno canadiense y atrae tanto a turistas como a residentes que disfrutan de las tradiciones y actividades propias de la temporada.",
+  "mas3":"Ver más...",
+
+  "video-tradiciones":"Descubre más sobre Canadá",
+
+  "simbolos-titulo":"Símbolos Principales de Canadá",
+
+  "herencia-titulo":"Herencia Indígena",
+  "herencia-texto":"La herencia indígena de Canadá es fundamental para su identidad. Antes de la llegada de los europeos, el territorio estaba habitado por las Primeras Naciones, los inuit y los métis, quienes desarrollaron culturas, lenguas y tradiciones propias. Su profundo respeto por la naturaleza y sus expresiones artísticas y espirituales siguen siendo parte importante del patrimonio cultural canadiense actual.",
+
+  "arce-titulo":"La hoja de Arce",
+  "arce-texto":"La hoja de arce es el símbolo más representativo de Canadá. Representa la naturaleza, la identidad nacional y el orgullo del país. Además, el arce tiene gran importancia económica y cultural, ya que de él se obtiene el famoso jarabe de arce, un producto tradicional y reconocido en todo el mundo.",
+
+  "castor-titulo":"Castor",
+  "castor-texto":"El castor es uno de los símbolos más tradicionales de Canadá. Desde la época del comercio de pieles, este animal tuvo un papel clave en el desarrollo económico del territorio. Con el tiempo, se convirtió en una representación del esfuerzo, la constancia y el espíritu trabajador que caracterizan al país, por lo que hoy es reconocido como uno de sus emblemas nacionales.",
+    
+  "video-simbolos":"Descubre más sobre curiosidades",
+
+  "footer-titulo": "Cultura Canadiense",
+  "footer-texto": "Explora la vasta naturaleza, la rica herencia indígena y la moderna diversidad que define a Canadá."
+}
