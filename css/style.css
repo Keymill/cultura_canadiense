@@ -755,17 +755,10 @@ hr{
         width: 120px;
     }
 
-    .tarjeta-comida{
-        min-width: 220px;
-        max-width: 220px;
-    }
-
- 
     header{
         padding: 15px;
     }
 
-  
     .menu-toggle{
         top: 15px;
         right: 15px;
@@ -785,29 +778,46 @@ hr{
         padding: 6px 10px;
     }
 
-
+    /* CARRUSEL */
     .carrusel{
-    padding: 0 38px;
-}
+        padding: 0 25px;
+    }
 
-.tarjeta-comida{
-    flex: 0 0 200px;
-}
+    .carrusel-contenedor{
+        gap: 15px;
+    }
 
-.tarjeta-comida h3{
-    font-size: 18px;
-}
+    .tarjeta-comida{
+        flex: 0 0 180px;
+    }
 
-.tarjeta-comida p{
-    font-size: 13px;
-    line-height: 1.4;
-}
+    .tarjeta-comida img{
+        height: 180px;
+    }
 
-.flecha{
-    width: 32px;
-    height: 32px;
-    font-size: 15px;
-}
+    .tarjeta-comida h3{
+        font-size: 16px;
+    }
+
+    .tarjeta-comida p{
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    /* FLECHAS */
+    .flecha{
+        width: 28px;
+        height: 28px;
+        font-size: 14px;
+    }
+
+    .izquierda{
+        left: -5px;
+    }
+
+    .derecha{
+        right: -5px;
+    }
 }
 
 
